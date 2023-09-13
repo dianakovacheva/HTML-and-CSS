@@ -1,2 +1,2 @@
 # HTML-and-CSS
-HTML &amp; CSS course
+HTML &amp; CSS Course
