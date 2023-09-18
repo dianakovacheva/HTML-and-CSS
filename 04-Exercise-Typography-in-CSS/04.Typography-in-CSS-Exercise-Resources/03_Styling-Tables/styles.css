@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    padding: 16px;
+}
+
+table thead tr th {
+    background-color: lightblue;
+}
+
+table thead tr th,
+table tbody tr td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}

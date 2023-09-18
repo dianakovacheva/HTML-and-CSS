@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    text-align: center;
+}
+
+article h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #747474;
+}
+
+article span {
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-style: oblique;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.46;
+color: #5c5a5a;
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
