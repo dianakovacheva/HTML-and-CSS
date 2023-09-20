@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-size: 1em/1.2;
+}
+
+section.card {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.card div img {
+  width: 100%;
+  position: relative;
+}
+
+.card-info {
+  display: inline-block;
+  padding: 0 2em 2em 2em;
+}
+
+.card-info > p {
+  padding-bottom: 0.5em;
+}
+
+.card-info > a {
+  float: right;
+  background-color: rgb(0, 153, 0);
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+}

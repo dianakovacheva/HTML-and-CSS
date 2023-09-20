@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    align-items: baseline;
+    font-family: Helvetica, sans-serif;
+}
+header h1 {
+    margin-right: 3em;
+}
+
+header nav ul li{
+    display: inline-block;
+   margin-right: 2em;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+main p {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}

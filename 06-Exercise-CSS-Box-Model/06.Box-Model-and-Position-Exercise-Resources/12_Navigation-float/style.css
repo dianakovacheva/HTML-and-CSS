@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+/* Navigation Section */
+
+header.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navigation > p {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navigation nav ul li {
+  display: inline-block;
+  color: rgb(0, 102, 0);
+  margin-left: 2em;
+}
+
+.navigation nav ul li:hover {
+  cursor: pointer;
+}
+
+/* Article Section */
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main article {
+  width: 65%;
+  float: left;
+  margin-right: 7em;
+}
+
+img {
+  border: 2px solid black;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.photo-right img {
+  float: right;
+  margin-left: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+section.quotation-section p.float-left,
+section p.quote {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.quotation-section p.float-left {
+  width: 50%;
+  border-right: 3px solid lightgray;
+  padding-right: 1em;
+  margin-right: 1em;
+  word-wrap: break-word;
+}
+
+section p.quote {
+  width: 40%;
+  font-style: italic;
+  color: rgb(51, 51, 51);
+  font-family: "Times New Roman", Times, serif;
+}
+
+section p.quote span {
+  float: right;
+  margin-top: 3em;
+  font-size: 16px;
+}
+
+section.photo-left img {
+  float: left;
+  margin-right: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* Aside section */
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside section nav ul li {
+  list-style: square;
+}
+
+aside section nav ul li a {
+  color: rgb(0, 102, 0);
+}
