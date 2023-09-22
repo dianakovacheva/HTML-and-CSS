@@ -1,0 +1,29 @@
+.container .row {
+  display: flex;
+}
+
+.container .week {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .title,
+.container .day,
+.container .notes {
+  border: 1px solid black;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.container .title {
+  flex: 1 0 100%;
+}
+
+.container .day {
+  flex-grow: 1;
+}
+
+.container .notes {
+  flex: 0 0 20%;
+}

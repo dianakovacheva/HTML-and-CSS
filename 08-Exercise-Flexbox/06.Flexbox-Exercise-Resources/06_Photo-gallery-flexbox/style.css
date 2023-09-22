@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+.gallery ul,
+.gallery ul li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.gallery {
+  background-color: lightgray;
+}
+
+.gallery ul li {
+  border: 0.5em solid black;
+  padding: 1em 0;
+  margin: 0.5em;
+  height: 25em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.gallery img {
+  display: block;
+  width: 90%;
+}

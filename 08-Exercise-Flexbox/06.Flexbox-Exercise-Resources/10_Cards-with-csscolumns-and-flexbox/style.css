@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  line-height: 1.5;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.cards-layout.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.card.flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: 1px solid darkgray;
+  background-color: white;
+}
+
+.card.flex section,
+.card.flex footer p {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.card.flex footer p {
+  border-top: 1px solid darkgray;
+}
