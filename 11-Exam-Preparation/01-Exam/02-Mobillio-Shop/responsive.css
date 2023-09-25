@@ -1,0 +1,102 @@
+@media screen and (max-width: 600px) {
+  .home-container {
+    padding-top: 71px;
+  }
+
+  .section-container {
+    padding-top: 50px;
+  }
+
+  .input,
+  .home-textinput,
+  .home-left,
+  .home-right {
+    display: none;
+  }
+
+  .home-navbar1 {
+    justify-content: flex-start;
+  }
+
+  .navbar-logo-title {
+    margin: 0;
+  }
+
+  .home-hero1 {
+    flex-direction: column;
+  }
+
+  .home-container03 {
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  .home-text12 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .button {
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  /* Shop by categories */
+
+  .section-container.column {
+    padding-top: 45px;
+  }
+
+  .section-heading-text1 {
+    font-size: 18px;
+  }
+
+  /* Cards */
+
+  .category-card-image {
+    width: 230px;
+    height: 250px;
+  }
+
+  /* Lookbooks */
+  .section-container {
+    flex-direction: column;
+  }
+
+  .home-left4 {
+    padding: 2em 0;
+  }
+
+  .home-text30 {
+    width: 100%;
+  }
+
+  .home-content {
+    margin: 0 0 16px 0;
+  }
+
+  .home-image6 {
+    width: 100%;
+  }
+
+  /* Our blog */
+
+  /* Footer */
+
+  .home-main {
+    padding-bottom: 48px;
+  }
+
+  .home-links-container {
+    flex-direction: column;
+  }
+
+  .home-footer1 {
+    flex-direction: column-reverse;
+    padding-top: 48px;
+  }
+
+  .home-container09 {
+    padding-top: 96px;
+  }
+}
