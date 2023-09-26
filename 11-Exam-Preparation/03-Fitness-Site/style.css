@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em 0 2em;
+  background-color: #d01919;
+}
+
+.phone-number,
+.address-info,
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5em;
+  color: #ffffff;
+}
+
+.phone-number svg,
+.address-info svg,
+.social-icons svg {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+/* Hero section */
+main.hero-section {
+  max-width: auto;
+  height: 450px;
+  background-image: url("image/fitness-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/* Hero section navigation */
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1em;
+  gap: 4em;
+  margin: 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul li:last-child {
+  padding-right: 2em;
+}
+
+/* Call to action */
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+  color: #ffffff;
+}
+
+.call-to-action h1 {
+  font-size: 32px;
+  letter-spacing: 0.5em;
+  margin-bottom: 1em;
+}
+
+.call-to-action p {
+  max-width: 450px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.call-to-action button {
+  all: unset;
+  background-color: #d01919;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0.3em 1em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+/* Welcome */
+.welcome,
+.coaches-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h2,
+.coaches-section h2 {
+  text-align: center;
+  color: #000000;
+  font-weight: normal;
+}
+
+.welcome hr,
+.coaches-section hr {
+  color: #d01919;
+  width: 40px;
+  margin-bottom: 1em;
+}
+
+.pros,
+.coaches {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6em;
+  margin-bottom: 2em;
+}
+
+.pros-info,
+.coaches-info {
+  text-align: center;
+  max-width: 300px;
+}
+
+.pros-info img {
+  width: 40px;
+  height: auto;
+  margin-bottom: -1em;
+  margin-top: 1em;
+}
+
+.pros-info h4 {
+  color: #d01919;
+  font-weight: normal;
+  margin-bottom: -0.5em;
+}
+
+/* Coaches */
+.coaches-section {
+  height: 450px;
+  padding: 3em 0;
+  background-color: #efefef;
+}
+
+.coaches {
+  gap: 8em;
+}
+
+.coaches-section h2 {
+  padding-top: 1em;
+}
+
+.coaches-info img {
+  border-radius: 6px;
+  margin-bottom: -0.5em;
+  margin-top: 0.5em;
+}
+
+.coaches-info h3,
+.coaches-info h4 {
+  margin-bottom: -0.5em;
+}
+
+.coaches-info h4 {
+  color: #d01919;
+}
+
+.coaches-info p {
+  color: #b1abb0;
+}
+
+/* Footer */
+footer {
+  background-color: #d01919;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+}
