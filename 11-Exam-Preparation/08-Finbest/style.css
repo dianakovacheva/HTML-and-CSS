@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  box-sizing: border-box;
+  background-color: #f3f5fa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Navigiation */
+nav.site-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 10em;
+  background-color: white;
+}
+
+ul.left-nav,
+ul.right-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+
+ul.left-nav a,
+ul.right-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+ul.right-nav li:last-child {
+  background-color: #ade2df;
+  padding: 0.4em 0.8em;
+  border-radius: 0.4em;
+}
+
+/* Hero section */
+.hero {
+  background-color: #ade2df;
+  text-align: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.call-to-action-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8em;
+  padding-bottom: 1em;
+}
+
+.call-to-action-btns .btn {
+  all: unset;
+  background-color: black;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.call-to-action-btns .btn svg {
+  fill: white;
+}
+
+/* Statistic */
+.statistic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 350px;
+  background-color: white;
+}
+
+.statistic-card {
+  border-right: 1px solid #dfdfdf;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.statistic-card:first-child {
+  border-left: 1px solid #dfdfdf;
+}
+
+.statistic-card h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.statistic-card p {
+  font-weight: 400;
+  width: 90%;
+}
+
+/* Image section */
+.img-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ade2df;
+  gap: 4em;
+  height: 450px;
+}
+
+.img-section img {
+  width: auto;
+  height: 448px;
+  border: 1px dashed #aeafaa;
+  padding: 0 2em;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+}
+
+.section-content h2 {
+  font-size: 32px;
+  font-weight: 500;
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+.section-content h5 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.section-content p {
+  color: #232f30;
+  font-weight: 400;
+  width: 80%;
+  margin-bottom: 1.5em;
+}
+
+.img-section a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid black;
+}
+
+/* Pricing plans */
+.plans-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background-color: #f3f5fa;
+}
+
+.plans-section h5 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #ade2df;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  margin-bottom: 1.5em;
+}
+
+.plans-section h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 2em;
+}
+
+/* Plan cards */
+.plan-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e4e4e4;
+  border-radius: 1em;
+  background-color: white;
+}
+
+.plan-card-content {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: space-between;
+}
+
+.plan-card-content.white-bg {
+  padding: 0 2em;
+  background-color: white;
+  border-right: 1px solid #e4e4e4;
+  margin: 2em 0;
+}
+
+.plan-card-content.expand {
+  background-color: #ade2df;
+  align-self: stretch;
+  padding: 2em;
+  width: auto;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.plan-card-content h4 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.plan-card-content p {
+  margin-bottom: 1em;
+}
+
+.plan-card-content.expand p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5em;
+  border-bottom: 1px solid #e4e4e4;
+  height: 60px;
+  margin-bottom: 2em;
+  font-size: 16px;
+}
+
+.plan-price h2 {
+  font-weight: 600;
+}
+
+.plan-card-content ul {
+  margin-bottom: 1.5em;
+}
+
+.plan-card-content ul li {
+  list-style: none;
+  line-height: 2em;
+  font-size: 14px;
+}
+
+.plan-card-content ul li svg {
+  margin-right: 0.3em;
+}
+
+.card-btn {
+  all: unset;
+  background-color: #ade2df;
+  padding: 1em 0;
+  width: 100%;
+  border-radius: 0.3em;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-btn.black {
+  background-color: black;
+  color: white;
+}
+
+/* Get started */
+.get-started-section {
+  background-color: #ade2df;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-started-content {
+  width: 30%;
+  text-align: center;
+}
+
+.get-started-content h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.get-started-content p {
+  margin-bottom: 2em;
+}
+
+/* Footer */
+
+footer {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+footer ul li {
+  list-style: none;
+}
