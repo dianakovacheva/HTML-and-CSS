@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  box-sizing: border-box;
+  background-image: url(./image/background.jpg);
+  background-size: cover;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Plans */
+.plan-card {
+  background-color: white;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25.5%;
+}
+
+.plan-card.premium {
+  width: 23%;
+}
+
+.plan-card h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: 1em;
+}
+
+.plan-price h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.plan-card p.billings-info {
+  color: #9a9b98;
+  margin-bottom: 2em;
+  font-size: 12px;
+}
+
+.plan-card ul.benefits {
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1em;
+}
+
+.plan-card.premium ul.benefits {
+  margin-bottom: 2em;
+}
+
+.plan-card ul.benefits li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.plan-card ul.benefits li svg {
+  margin-right: 0.5em;
+}
+
+.plan-card button {
+  all: unset;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 0.2em;
+  font-size: 14px;
+}
