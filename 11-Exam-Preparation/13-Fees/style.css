@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+html {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  color: #5b5656;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+header .logo {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+
+nav .list-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  cursor: pointer;
+}
+
+/* Section title */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #54546d;
+  height: 50vh;
+}
+
+.hero-section h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  line-height: 0;
+  top: -190px;
+  position: relative;
+}
+
+.hero-section img {
+  position: relative;
+  margin-left: -98%;
+}
+
+/* Fees section */
+.fees-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Fee card */
+.fee-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  text-align: center;
+  width: 33.3%;
+  align-self: stretch;
+  overflow: auto;
+  padding: 2em 0 0 0;
+  border: 1px solid #dddddd;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: -190px;
+  margin-bottom: 6em;
+}
+
+.fee-card h1 {
+  color: #54546d;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fee-card > p {
+  color: #565656;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  text-align: center;
+  width: 90%;
+}
+
+.fee-card button {
+  all: unset;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #9b5dc6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  border-radius: 3em;
+  padding: 1em 3em;
+  cursor: pointer;
+}
+
+.fee-info {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: white;
+  padding: 1em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  margin-top: 2em;
+}
+
+.fee-info.side-by-side-fundamentals,
+.side-by-side-professional {
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.fee-info.free {
+  flex-direction: column;
+  background-image: linear-gradient(to right, #049d3f, #49d680);
+}
+
+.fee-info.side-by-side-fundamentals {
+  background-image: linear-gradient(to right, #4d6b87, #629bcf);
+}
+
+.side-by-side-professional {
+  background-image: linear-gradient(to right, #4a37a5, #8d7de1);
+}
+
+.fee-info-left {
+  border-right: 1px solid white;
+  padding-right: 2em;
+}
+
+.fee-info h2 {
+  font-weight: 400;
+}
+
+/* Class options */
+.class-options {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.class-options h2,
+.class-options p,
+.list {
+  position: relative;
+  top: -190px;
+}
+
+.class-options h2 {
+  margin-bottom: 1em;
+}
+
+.class-options p {
+  margin-bottom: 2em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 4em 1em 1em;
+}
+
+.list li:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.list li:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.list li:first-child {
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.list li:last-child {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.list li span img {
+  padding-left: 10em;
+}
+
+/* Financing option */
+.financing-option {
+  position: relative;
+  top: -190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0 0 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.financing-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.financing-info h2 {
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.financing-info p {
+  width: 90%;
+}
+
+.financing-info p:first-of-type {
+  margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+  background-color: #54546d;
+  color: #7d85a3;
+  padding: 1em 0;
+  text-align: center;
+}
