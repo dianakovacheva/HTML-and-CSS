@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b9b9b9;
+  border-radius: 0.5em;
+  width: 70%;
+  gap: 2em;
+  margin: 4rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #f6f7f8;
+}
+
+/* Image */
+
+.container img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  filter: brightness(70%);
+}
+
+.calculator {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Calculator */
+.calculator h1 {
+  margin-bottom: 2em;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.unit-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6em;
+  margin-bottom: 1em;
+}
+
+.unit-buttons button {
+  all: unset;
+  border: 1px solid #707070;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.unit-buttons button.us-units {
+  background-color: #86d862;
+  padding: 0.5em 1em;
+}
+
+.unit-buttons button {
+  background-color: #e0e0df;
+  padding: 0.5em 2.5em;
+}
+
+/* Client info */
+.client-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-info h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.gender-info select {
+  width: 150px;
+}
+
+.weight-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.weight-info input {
+  width: 90%;
+}
+
+.height-info {
+  gap: 1em;
+}
+
+.feet-info input,
+.inches-info input {
+  width: 200px;
+}
+
+/* Calculate button */
+.calc-btn {
+  all: unset;
+  margin: 2em 0;
+  padding: 0.5em;
+  background-color: #01a2d3;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 2em;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
