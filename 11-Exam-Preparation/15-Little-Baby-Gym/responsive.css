@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Amatic SC";
+}
+
+@media screen and (max-width: 600px) {
+  /* Navigation */
+
+  .site-navigation {
+    display: none;
+  }
+
+  .site-main {
+    margin: 0;
+  }
+
+  /* Hero */
+  .entry-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 5%;
+  }
+
+  .entry-header {
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 5em 0;
+  }
+
+  .entry-header-title {
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 1;
+    padding-top: 0.2em;
+  }
+
+  .entry-header-title::first-letter {
+    font-size: 12rem;
+  }
+
+  .entry-header-description {
+    left: 85px;
+  }
+
+  .button-primary {
+    font-size: 20px;
+    width: 20%;
+  }
+
+  /* Site logos */
+  .site-logos-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 100px;
+  }
+
+  .site-logo span {
+    font-family: "PT Sans", sans-serif;
+  }
+
+  /* Franchise */
+  .entry-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-information-text {
+    flex: 0 0 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-information-text h2.entry-title {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+
+  .site-information-text p.entry-description {
+    width: 70%;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  /* Find gym */
+  h2.entry-title {
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+
+  /* Form */
+  .site-form form > p {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .site-form button {
+    margin: 0 auto;
+  }
+
+  /* Lates posts */
+  .site-blog-container h2.entry-title {
+    font-size: 80px;
+    width: 50%;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Gallery */
+  .site-posts {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .site-post img {
+    object-fit: cover;
+  }
+
+  .site-post h2 {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .site-post p {
+    width: 85%;
+    font-family: "PT Sans";
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .site-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
