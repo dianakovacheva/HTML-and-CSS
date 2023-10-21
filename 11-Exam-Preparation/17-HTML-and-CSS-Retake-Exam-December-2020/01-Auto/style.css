@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+/* Left side content */
+.section-content-left {
+  width: 50%;
+}
+
+.section-content-left .section-title {
+  font-size: 2em;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.section-content-left .section-desc {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #a7a7a7;
+}
+
+.section-content-left .section-desc {
+  margin-bottom: 1em;
+}
+
+.section-content-left .section-desc.last {
+  margin-bottom: 2em;
+}
+
+/* Feautures */
+.features {
+  list-style: none;
+
+  gap: 1.5em;
+}
+
+.features .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.features .list-item img {
+  width: 100px;
+}
+
+.list-item-title {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.list-item-desc {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #a7a7a7;
+}
+
+/* Right side content */
+
+.section img.car-img {
+  width: 50%;
+}

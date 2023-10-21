@@ -1,0 +1,231 @@
+:root {
+  --logo-clr: #2b383b;
+  --divider-gray-clr: #b2b2b2;
+  --orange-clr: #e24f2a;
+  --light-gray-clr: #ececec;
+  --nav-black-clr: #212121;
+  --text-pinky-clr: #f5c7bc;
+  --underlined-text-clr: #fdedea;
+  --section-dark-gray-clr: #383838;
+  --text-dark-gray-clr: #656c6c;
+  --title-dark-gray-clr: #555555;
+  --subtitle-light-gray-clr: #a2a2a2;
+  --dark-green-clr: #1c9772;
+  --footer-text-light-green-clr: #5cb499;
+  --footer-links-green-clr: #a1d4b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navigation */
+.site-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4em;
+}
+
+/* Nav left */
+.site-navigation .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.site-navigation .nav-left .site-name {
+  font-size: 4em;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--logo-clr);
+}
+
+.site-navigation .nav-left .divider {
+  height: 5em;
+  width: 0.1em;
+  background-color: var(--divider-gray-clr);
+  align-self: center;
+}
+
+.site-navigation .nav-left .author {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+}
+
+/* Nav right */
+.site-navigation .nav-right ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 0.2em;
+  cursor: pointer;
+}
+
+.site-navigation .nav-right ul .list-item a {
+  text-decoration: none;
+  background-color: var(--light-gray-clr);
+  padding: 1.5em;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: var(--nav-black-clr);
+}
+
+.site-navigation .nav-right ul .list-item.active a {
+  background-color: var(--orange-clr);
+  color: white;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: var(--orange-clr);
+}
+
+.hero-section .hero-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.hero-section .section-content {
+  background-color: var(--orange-clr);
+  padding: 3em 0 4em 0;
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 1.5;
+  color: var(--text-pinky-clr);
+}
+
+.hero-section .section-content .author,
+.license {
+  color: white;
+  cursor: pointer;
+}
+
+.hero-section .section-content p {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Feautures section */
+.feautures,
+.articles {
+  padding: 10em 4em 12em 4em;
+  background-color: var(--section-dark-gray-clr);
+  display: flex;
+  align-items: center;
+}
+
+.feautures .feautures-list,
+.articles .articles-list {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.feauture-type i {
+  color: white;
+  font-size: 5.5em;
+  text-align: center;
+  padding: 0.5em;
+  background-color: var(--orange-clr);
+}
+
+.feautures .feautures-list .feauture-title {
+  color: white;
+  font-size: 1.8em;
+  margin: 0.5em 0 1.5em 0;
+  font-weight: 400;
+}
+
+.feautures .feautures-list .feauture-type .feauture-divider {
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--divider-gray-clr);
+  opacity: 30%;
+  margin-bottom: 2em;
+}
+
+.feauture-description,
+.article-description {
+  color: var(--text-dark-gray-clr);
+  font-size: 1.6em;
+  line-height: 1.8;
+  width: 100%;
+}
+
+/* Call to action section */
+.call-to-action-section {
+  padding: 7em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.call-to-action-section h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--title-dark-gray-clr);
+  line-height: 1.5;
+}
+
+.call-to-action-section p {
+  font-size: 1.8em;
+  font-weight: 400;
+  color: var(--subtitle-light-gray-clr);
+  margin-bottom: 2em;
+}
+
+.call-to-action-section .call-to-action-btn {
+  all: unset;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: white;
+  background-color: var(--dark-green-clr);
+  padding: 1.5em 3em;
+}
+
+/* Articles list */
+.articles .articles-list .article-type .article-title {
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: 2em;
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer p {
+  background-color: var(--dark-green-clr);
+  padding: 7em;
+  text-align: center;
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+  color: var(--footer-text-light-green-clr);
+}
+
+footer p a {
+  color: var(--footer-links-green-clr);
+  text-decoration: none;
+}
