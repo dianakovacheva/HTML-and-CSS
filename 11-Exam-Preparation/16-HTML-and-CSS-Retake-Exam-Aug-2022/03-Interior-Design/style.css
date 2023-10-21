@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero section */
+.hero-section {
+  height: 110vh;
+  background-image: url("./image/image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100%;
+}
+
+/* Hero section left */
+.hero-section .company-logo {
+  width: 20%;
+  padding: 1em 5em 1em 1.5em;
+  position: relative;
+  top: 2em;
+  left: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-section .company-logo h1 {
+  font-size: 2.5em;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.3em;
+  border-bottom: 3px solid white;
+}
+
+/* Hero section right */
+.hero-section .right {
+  width: 30%;
+  height: auto;
+  padding: 3em 2em;
+  float: right;
+  position: relative;
+  top: 6em;
+  right: 2em;
+  text-align: right;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  /* background-color: #9c928a; */
+  background: linear-gradient(
+    90deg,
+    rgba(156, 146, 138, 1) 35%,
+    rgba(230, 230, 230, 1) 100%
+  );
+  text-shadow: 1px 1px 2px #8e8582;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-section .right .quote p.quotation-marks {
+  font-size: 5em;
+  line-height: 0;
+  padding-top: 0.5em;
+  color: #8e8582;
+  text-shadow: 1px 1px 2px #8e8582;
+}
+
+/* Site content */
+.site-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Services */
+.left-side {
+  width: 70%;
+  background-color: #f2f0f3;
+  /* padding: 10em 0 10em 10em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.left-side .services {
+  width: 70%;
+  padding-top: 5em;
+  margin-bottom: 3em;
+}
+
+.services h1 {
+  font-size: 3em;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.services .services-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5em;
+}
+
+.services .services-list .list-item {
+  color: #333333;
+}
+
+.services .services-list .list-item span {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0.5em;
+}
+
+/* Contact info */
+.left-side .contact {
+  width: 70%;
+  padding-bottom: 3em;
+}
+
+.left-side .contact h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.divider {
+  background-color: black;
+  height: 0.08em;
+  align-self: stretch;
+  align-self: stretch;
+  margin-bottom: 2em;
+}
+
+/* Contact info list */
+ul.contact-info {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+ul.contact-info li.contact-item span {
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Contact form */
+.contact-form #email-address {
+  width: 50%;
+  padding: 1.5em 0;
+  background-color: #bab1ae;
+  border: 1px solid #bab1ae;
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+
+.contact-form #email-address::placeholder {
+  font-size: 16px;
+  color: white;
+  padding-left: 1.5em;
+}
+
+.contact-form .action-btn {
+  all: unset;
+  padding: 1em 2em;
+  color: white;
+  font-size: 16px;
+  background-color: #67784e;
+  border: 1px solid #67784e;
+  border-radius: 0.5em;
+}
+
+/* Right side section */
+.right-side {
+  padding: 5em 0 3em 2em;
+  background-color: #bab1ae;
+  width: 30%;
+  align-self: stretch;
+}
+
+.right-side .company-info {
+  list-style: none;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8em;
+}
+
+li.info-item .large-text {
+  font-size: 4em;
+  line-height: 1;
+  font-weight: 100;
+  color: white;
+}
+
+li.info-item span {
+  color: #333333;
+  text-transform: uppercase;
+}

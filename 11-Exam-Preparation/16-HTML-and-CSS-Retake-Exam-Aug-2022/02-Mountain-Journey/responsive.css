@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+  /* Navigation */
+  header nav {
+    flex-direction: column;
+  }
+
+  header nav img {
+    margin-bottom: 1em;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  /* Header title */
+  .header-title {
+    padding: 0;
+  }
+
+  .header-title h1 {
+    font-size: 38px;
+  }
+
+  /* About us */
+  .about-us {
+    width: 100%;
+  }
+
+  .about-us p:nth-child(3) {
+    width: 75%;
+  }
+
+  /* Team */
+  .team-description ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 1em;
+  }
+
+  .team-description ul li img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Choose us */
+  .choose-us ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  /* Blog news */
+  .blog-news ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin: 0 auto;
+  }
+
+  .blog-news ul .item .avatar {
+    width: 14rem;
+  }
+}

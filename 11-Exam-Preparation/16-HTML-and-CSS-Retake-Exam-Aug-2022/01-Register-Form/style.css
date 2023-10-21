@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center top;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5%;
+}
+
+/* Form */
+.container {
+  background-image: url("./images/form-background.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center top;
+  width: 50%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  border-radius: 1.5em;
+  padding: 5%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form h1 {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 1em;
+}
+
+.register-form .user-name-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.register-form .user-name-info .input-field {
+  width: 50%;
+}
+
+.register-form .input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 1.5em;
+}
+
+.register-form .input-field label {
+  color: #74746b;
+  margin-bottom: 0.5em;
+}
+
+.register-form .input-field input {
+  padding: 1em 2.5em;
+  border-radius: 2em;
+  border: 2px solid #e6e6e6;
+  background-color: transparent;
+}
+
+.register-form .input-field.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #74746b;
+  gap: 0.5em;
+}
+
+.register-form .input-field.checkbox input {
+  cursor: pointer;
+}
+
+/* Button */
+button.register-btn {
+  all: unset;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 1em 2.5em;
+  background-color: #ae3c33;
+  border-radius: 2em;
+  cursor: pointer;
+  margin: 0 auto;
+}
